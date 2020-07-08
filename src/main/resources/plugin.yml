@@ -1,0 +1,13 @@
+name: Ping
+version: ${project.version}
+main: me.yama2211.ping.Main
+authors: [yamagami2211]
+
+commands:
+  ping:
+    permission: ping.use
+    description: Ping Cmd
+    usage: /<command>
+permissions:
+  ping.use:
+    description: command permission
